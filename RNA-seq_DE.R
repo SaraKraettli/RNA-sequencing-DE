@@ -1,7 +1,7 @@
 ## RNA-sequencing
 
-## 5. Exploratory data analysis
-## Installing and loading necessary packages
+# 5. Exploratory data analysis
+# Installing and loading necessary packages
 install.packages("BiocManager")
 BiocManager::install("DESeq2")
 library(DESeq2)
