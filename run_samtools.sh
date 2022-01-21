@@ -20,5 +20,5 @@ samtools view -hbS ./Output_hisat2/${sample}.sam > ./Output_samtools_view/${samp
 # Sort the bam file
 samtools sort -m 25G -@ 4 -o ./Output_samtools/${sample}.bam -T temp ./Output_samtools_view/${sample}.bam
 
-#Indexing
+# Indexing
 samtools index ./Output_samtools/${sample}.bam
