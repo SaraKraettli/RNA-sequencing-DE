@@ -16,5 +16,5 @@ module add UHTS/Aligner/hisat/2.2.1
 mate1=./Input_hisat2/SRR78219$1\_1.fastq.gz
 mate2=./Input_hisat2/SRR78219$1\_2.fastq.gz
 
-#Create Index from Reference sequence
+# Create Index from Reference sequence
 hisat2 -x ./Index/Mus_musculus -1 ${mate1} -2 ${mate2} -S ./Output_hisat2/SRR78219$1\.sam -p 4 --rna-strandness RF
