@@ -166,6 +166,6 @@ bash command to cut columns containing Chr, Start, End, Strand and Length:
 cut -f 1,7-22 read_count.txt > counts.txt
 ```
 
-Created colData.txt for the DESeqDAtaSet object.
+Created "colData.txt" for the DESeqDAtaSet object.
 
 Wrote R script "RNA-seq_DE.R".
