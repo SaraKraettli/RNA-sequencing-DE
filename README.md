@@ -160,11 +160,12 @@ scp skraettli@binfservms01.unibe.ch:/data/courses/rnaseq/toxoplasma_de/skraettli
 # 5-7 Exploratory data analysis, Differential expression analysis & Overrepresentation analysis
 (Everything on the local machine)
 
-Deleted first line from read_count.txt and deleted "../3_Mapping/Output_samtools/" in front of all the samples & ".bam" at the end  
+Deleted first line from read_count.txt and deleted "../3_Mapping/Output_samtools/" in front of all the samples & ".bam" at the end.  
 bash command to cut columns containing Chr, Start, End, Strand and Length:  
 ```
 cut -f 1,7-22 read_count.txt > counts.txt
 ```
 
-Created colData.txt for the DESeqDAtaSet object  
-Wrote R script "RNA-seq_DE.R"
+Created colData.txt for the DESeqDAtaSet object.
+
+Wrote R script "RNA-seq_DE.R".
