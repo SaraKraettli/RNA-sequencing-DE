@@ -1,0 +1,17 @@
+sample	group	tissue
+SRR7821918	WT_Case	Lung
+SRR7821919	WT_Case	Lung
+SRR7821920	WT_Case	Lung
+SRR7821921	WT_Case	Lung
+SRR7821922	WT_Case	Lung
+SRR7821937	WT_Control	Lung
+SRR7821938	WT_Control	Lung
+SRR7821939	WT_Control	Lung
+SRR7821949	WT_Case	Blood
+SRR7821950	WT_Case	Blood
+SRR7821951	WT_Case	Blood
+SRR7821952	WT_Case	Blood
+SRR7821953	WT_Case	Blood
+SRR7821968	WT_Control	Blood
+SRR7821969	WT_Control	Blood
+SRR7821970	WT_Control	Blood
