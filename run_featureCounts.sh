@@ -9,8 +9,6 @@
 #SBATCH --output=output_Counts_%j.o
 #SBATCH --error=error_Counts_%j.e
 
-#sample=SRR78219$1
-
 # Load module
 module add UHTS/Analysis/subread/2.0.1
 
