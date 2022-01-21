@@ -41,7 +41,7 @@ sum(DE_lung$padj < 0.05, na.rm =T)
 # How many are overexpressed or underexpressed? (compared to control) (Note that > 0 means underexpressed in the case, because the comparison is Cotnrol vs. Case)
 # Underexpressed in case
 sum(DE_lung$log2FoldChange>0)
-# Overexpressdd in case
+# Overexpressed in case
 sum(DE_lung$log2FoldChange<0)
 
 # Select 2 genes of particular interest
