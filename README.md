@@ -3,8 +3,6 @@ Repository for the documented code used for the analysis in the course "RNA-sequ
 
 Project: Detect differentially expressed genes from bulk RNA-seq data.
 
-All the files created in this documentation can be found in the folder corresponding to the number and title of the step in the workflow.
-
 # 1. Getting Started
 (Everything on the IBU-cluster)
 
